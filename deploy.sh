@@ -8,9 +8,7 @@ git config --global user.name "Travis CI"
 # build
 rm -rf public
 mkdir public
-cp css public/css
-cp index.html public/
-cp favicon.ico public/
+cp -r css index.html favicon.ico public/
 
 # deploy
 cd public

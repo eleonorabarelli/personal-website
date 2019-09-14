@@ -12,7 +12,8 @@ For every commit on the `master` branch the site is updated via Travis CI by pus
 
 ## Steps
 
-~~1) Create a simple html page with links to main work-relevant profiles~~
-~~2) Publish it on github pages~~
-~~3) Publish it via Travis CI~~
+Every step is going to be tested on a feature branch (when applicable) and then merged with a pull request onto the `master` branch
 
+1) Create a simple html page with links to main work-relevant profiles
+2) Publish it on github pages
+3) Publish it via Travis CI

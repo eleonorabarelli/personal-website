@@ -1,5 +1,5 @@
 script:
-  - bash ./scripts/deploy.sh
+  - bash ./deploy.sh
 env:
   global:
     - GITHUB_REPO: "eleonorabarelli/eleonorabarelli.github.io"

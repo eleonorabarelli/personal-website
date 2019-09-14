@@ -1,6 +1,6 @@
 #!/bin/bash
 set -o errexit
-
+set -x
 # config
 git config --global user.email "eleonora.barelli2@unibo.it"
 git config --global user.name "Travis CI"

@@ -15,5 +15,6 @@ For every commit on the `master` branch the site is updated via Travis CI by pus
 Every step is going to be tested on a feature branch (when applicable) and then merged with a pull request onto the `master` branch
 
 1) Create a simple html page with links to main work-relevant profiles
-2) Publish it on github pages
+2) Publish it on github pages (eleonorabarelli.github.io)
 3) Publish it via Travis CI
+4) Publish it also on eleonorabarelli.surge.sh via Travis CI

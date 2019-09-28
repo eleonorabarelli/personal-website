@@ -8,4 +8,4 @@ deploy:
   project: ./public/
   domain: eleonorabarelli.surge.sh
   on:
-    all_branches: true
+    branch: master

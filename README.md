@@ -1,6 +1,7 @@
 # Personal website [![Build Status](https://travis-ci.org/eleonorabarelli/personal-website.svg?branch=master)](https://travis-ci.org/eleonorabarelli/personal-website)
 
 https://eleonorabarelli.github.io
+https://eleonorabarelli.surge.sh
 
 ## Aims
 

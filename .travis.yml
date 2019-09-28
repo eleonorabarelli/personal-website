@@ -8,5 +8,7 @@ jobs:
     - stage: surge.sh
       deploy:
         provider: surge
-        project: ./public/
+        project: .
         domain: eleonorabarelli.surge.sh
+        on:
+          all_branches: true

@@ -2,9 +2,9 @@ script: ./deploy.sh
 env:
   global:
     - GITHUB_REPO: "eleonorabarelli/eleonorabarelli.github.io"
-  deploy:
-    provider: surge
-    project: ./public/
-    domain: eleonorabarelli.surge.sh
-    on:
-      all_branches: true
+deploy:
+  provider: surge
+  project: ./public/
+  domain: eleonorabarelli.surge.sh
+  on:
+    all_branches: true

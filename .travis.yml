@@ -5,7 +5,6 @@ jobs:
       env:
         global:
         - GITHUB_REPO: "eleonorabarelli/eleonorabarelli.github.io"
-    - stage: surge.sh
       deploy:
         provider: surge
         project: .

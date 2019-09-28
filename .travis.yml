@@ -3,6 +3,7 @@ env:
   global:
     - GITHUB_REPO: "eleonorabarelli/eleonorabarelli.github.io"
 deploy:
+  skip_cleanup: true
   provider: surge
   project: ./public/
   domain: eleonorabarelli.surge.sh

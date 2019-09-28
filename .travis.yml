@@ -1,5 +1,12 @@
-script:
-  - bash ./deploy.sh
-env:
-  global:
-    - GITHUB_REPO: "eleonorabarelli/eleonorabarelli.github.io"
+jobs:
+  include:
+    - stage: github.io
+      script: ./deploy.sh
+      env:
+        global:
+        - GITHUB_REPO: "eleonorabarelli/eleonorabarelli.github.io"
+    - stage: surge.sh
+      deploy:
+        provider: surge
+        project: ./public/
+        domain: eleonorabarelli.surge.sh

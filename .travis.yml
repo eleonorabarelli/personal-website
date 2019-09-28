@@ -1,13 +1,10 @@
-jobs:
-  include:
-    - stage: github.io
-      script: ./deploy.sh
-      env:
-        global:
-        - GITHUB_REPO: "eleonorabarelli/eleonorabarelli.github.io"
-      deploy:
-        provider: surge
-        project: .
-        domain: eleonorabarelli.surge.sh
-        on:
-          all_branches: true
+script: ./deploy.sh
+  env:
+    global:
+      - GITHUB_REPO: "eleonorabarelli/eleonorabarelli.github.io"
+    deploy:
+      provider: surge
+      project: ./public/
+      domain: eleonorabarelli.surge.sh
+      on:
+        all_branches: true
